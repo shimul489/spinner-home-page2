@@ -852,9 +852,9 @@ header.style-2 .header-btn {
   transition: all 0.5s ease;
 }
 
-header {
+/* header {
   padding: 400px;
-}
+} */
 
 
 /*=======================================
@@ -863,7 +863,9 @@ header {
 .mobile-menu-form {
   margin-top: 50px;
 }
-
+.mobile-menu-btn h5 {
+  font-size: 18px;
+}
 .mobile-menu-form input {
   width: 100%;
   border: 1px solid #EEEEEE;
@@ -934,17 +936,12 @@ header.style-2{
     padding: 0px 30px;
   }
 }
-
-@media (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   header.style-2 {
-    padding: 0px 30px;
-  }
-}
-
-@media (max-width: 991px) {
-  header.style-2 {
+    width: 100%;
     padding: 0px 20px;
     top: 0;
+    border-radius: 0px;
   }
 }
 
@@ -2511,7 +2508,6 @@ ul {
 
 .footer-social {
   padding: 15px 0px;
-  border-top: 1px solid #2f2f2f;
   transition: all 0.42s ease;
 }
 
@@ -2619,6 +2615,11 @@ footer .footer-item .input-with-btn button img {
 
 }
 
+.address-list{
+  
+  border-bottom: 1px solid #2f2f2f;
+
+}
 .address-list li {
   margin-bottom: 15px;
 
@@ -2645,7 +2646,7 @@ footer .footer-item .footer-list li {
 
 footer .footer-bottom {
   padding: 15px 0px;
-  border-top: 1px solid #2f2f2f;
+  
 }
 
 .footer-bottom .terms-link {
@@ -2655,16 +2656,23 @@ footer .footer-bottom {
   gap: 15px;
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .footer-response {
-   margin-left: 40px;
+   margin-left: 25px;
   }
-}
-@media screen and (max-width: 768px) {
-  .footer-response {
-   margin-left: 0px;
+} */
+@media screen and (max-width: 576px){
+  footer .footer-item, .footer-social{
+    padding-left: 20px;
+  }
+  footer .footer-top{
+    padding: 0;
   }
   
 }
-
+/* @media sereen and (max-width: 320px) {
+footer .footer-item{
+  padding-left:20px;
+}  
+} */
 /* ===== footer section end here====== */
