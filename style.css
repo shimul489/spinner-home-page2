@@ -2670,9 +2670,9 @@ footer .footer-bottom {
   }
   
 }
-/* @media sereen and (max-width: 320px) {
-footer .footer-item{
-  padding-left:20px;
+ /* @media sereen and (max-width: 320px) {
+.footer-bottom p{
+  font-size: 13px;
 }  
-} */
+}  */
 /* ===== footer section end here====== */

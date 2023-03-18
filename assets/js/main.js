@@ -357,6 +357,6 @@ var swiper = new Swiper(".testimonial-slider", {
   }
   });
   // Magnific Popup video
-
+  new WOW().init();
 
 }(jQuery));
